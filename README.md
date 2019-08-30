@@ -7,10 +7,13 @@
 实例中有3个场景，可切换场景
 ## spineboy 
 基本动画和过渡效果，还有手动更改插槽中的附件实现表情更换
+![image](https://github.com/dengxiaochun/SpineInCocosCreator/blob/master/ReadMeImage/spineboyScene.png?raw=true)
 
 ## hero
 更换皮肤和装备功能
+![image](https://github.com/dengxiaochun/SpineInCocosCreator/blob/master/ReadMeImage/heroScene.png?raw=true)
 
 ## IKConstraints
 动画分层和路径约束功能
+![image](https://github.com/dengxiaochun/SpineInCocosCreator/blob/master/ReadMeImage/IKConstraintsScene.png?raw=true)
 
