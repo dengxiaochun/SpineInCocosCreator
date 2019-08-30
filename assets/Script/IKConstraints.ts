@@ -38,7 +38,7 @@ export default class IKConstraints extends cc.Component {
     sp_state_data:spine.AnimationStateData = null;
 
     onLoad() {
-        
+    
         this.sp = this.getComponent(sp.Skeleton)
         this.sp_skeleton = this.sp._skeleton;
         this.sp_skeleton_data = this.sp._skeleton.data;
@@ -90,7 +90,8 @@ export default class IKConstraints extends cc.Component {
         
         let hcBone:spine.Bone = this.sp.findBone(event.target.name)
         if (hcBone.parent != null) {
-            hcBone.parent.worldToLocal(new spine.Vector2(p2.x,p2.y))
+            // 这里是提示文件报错，不影响使用，试过改了也没用
+            hcBone.parent.worldToLocal(new sp.spine.Vector2(p2.x,p2.y))
             hcBone.x = p2.x;
             hcBone.y = p2.y
         } else {
